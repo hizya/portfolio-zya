@@ -10,7 +10,7 @@ function Introduction() {
   return (
     <MaxWidthWrapper className=" mb-12 mt-15 sm:mt-20 lg:mt-36 flex justify-between items-center flex-col sm:flex-row gap-10">
       <div className=" sm:hidden ring-1 ring-inset ring-gray-900/10 p-2 bg-gray-900/5 rounded-md">
-        <div className=" w-[25dvh]">
+        <div className=" w-[20dvh]">
           <Image
             src={'/images/main_photo.png'}
             alt="people"
@@ -77,7 +77,7 @@ function Introduction() {
       </div>
 
       <div className="hidden sm:block ring-1 ring-inset ring-gray-900/10 p-2 bg-gray-900/5 lg:p-3.5 rounded-md">
-        <div className="w-[26dvh]">
+        <div className="w-[25dvh]">
           <Image
             width={522}
             height={703}
