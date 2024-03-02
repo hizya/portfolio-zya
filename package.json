@@ -9,15 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.99.5",
+    "@react-three/fiber": "^8.15.16",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.6",
+    "lucide-react": "^0.338.0",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-icons": "^5.0.1",
+    "react-rough-notation": "^1.0.5",
+    "rough-notation": "^0.5.1",
+    "tailwind-merge": "^2.2.1",
+    "three": "^0.162.0"
   },
   "devDependencies": {
+    "@studio-freight/lenis": "^1.0.27",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
   }
 }
