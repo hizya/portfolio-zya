@@ -85,7 +85,7 @@ function ValueProject() {
                       className=" p-6 max-w-32 space-y-3"
                     >
                       <div
-                        className=" rounded-full p-2.5 w-full"
+                        className=" rounded-full flex flex-col items-center p-2.5 w-full"
                         style={{
                           backgroundColor: `${skill.color}`,
                         }}
@@ -99,7 +99,7 @@ function ValueProject() {
                           className=" object-cover min-w-4"
                         />
                       </div>
-                      <p className=" text-center text-gray-500 text-xs xs:text-sm">
+                      <p className=" text-center text-gray-500 text-xs">
                         {skill.name}
                       </p>
                     </li>
