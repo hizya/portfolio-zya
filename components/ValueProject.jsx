@@ -77,7 +77,7 @@ function ValueProject() {
                   <span className=" p-2 ">My Skills</span>
                 </RoughNotation>
               </p>
-              <ul className="p-2 flex flex-wrap justify-between">
+              <ul className="p-2 grid grid-cols-3 grid-rows-3">
                 {skills.map((skill, index) => {
                   return (
                     <li
@@ -85,7 +85,7 @@ function ValueProject() {
                       className=" p-6 max-w-32 space-y-3"
                     >
                       <div
-                        className=" rounded-full p-4 w-full"
+                        className=" rounded-full p-2.5 w-full"
                         style={{
                           backgroundColor: `${skill.color}`,
                         }}
@@ -96,10 +96,10 @@ function ValueProject() {
                           width={240}
                           height={240}
                           quality={100}
-                          className=" object-cover"
+                          className=" object-cover min-w-4"
                         />
                       </div>
-                      <p className=" text-center text-gray-500 text-sm">
+                      <p className=" text-center text-gray-500 text-xs xs:text-sm">
                         {skill.name}
                       </p>
                     </li>
