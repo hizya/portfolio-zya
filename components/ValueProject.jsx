@@ -64,48 +64,107 @@ function ValueProject() {
         />
       </div>
       <div className=" w-full px-10 ">
-        <div className="mx-auto max-w-5xl mt-16 sm:mt-24">
+        <div className="mx-auto max-w-xl mt-16 sm:mt-24">
           <div className=" w-full ring-1 h-full ring-inset ring-gray-900/10 p-2 bg-gray-900/5 lg:p-4 lg:rounded-2xl rounded-md">
             <div className=" w-full  h-full gap-10 rounded-md bg-white shadow-2xl ring-1 ring-gray-900/10">
-              <p className=" text-center p-4 font-semibold text-lg uppercase text-gray-700">
-                <RoughNotation
-                  color="orange"
-                  type="underline"
-                  show={true}
-                  padding={[2, 2]}
-                >
-                  <span className=" p-2 ">My Skills</span>
-                </RoughNotation>
-              </p>
-              <ul className="p-2 grid grid-cols-3 grid-rows-3">
-                {skills.map((skill, index) => {
-                  return (
-                    <li
-                      key={index}
-                      className=" p-6 max-w-32 space-y-3"
-                    >
-                      <div
-                        className=" rounded-full flex flex-col items-center p-2.5 w-full"
-                        style={{
-                          backgroundColor: `${skill.color}`,
-                        }}
+              <div>
+                <p className=" text-center p-4 font-semibold text-lg uppercase text-gray-700">
+                  <RoughNotation
+                    color="orange"
+                    type="underline"
+                    show={true}
+                    padding={[2, 2]}
+                  >
+                    <span className=" p-2 ">My Skills</span>
+                  </RoughNotation>
+                </p>
+                <ul className="p-2.5 grid grid-cols-3 grid-rows-3 items-center justify-center">
+                  {skills.map((skill, index) => {
+                    return (
+                      <li
+                        key={index}
+                        className=" p-4 max-w-32 space-y-3 mx-auto"
                       >
-                        <Image
-                          src={skill.img}
-                          alt="skill"
-                          width={240}
-                          height={240}
-                          quality={100}
-                          className=" object-cover min-w-4"
-                        />
-                      </div>
-                      <p className=" text-center text-gray-500 text-xs">
-                        {skill.name}
-                      </p>
-                    </li>
-                  );
-                })}
-              </ul>
+                        <div
+                          className=" rounded-full flex flex-col items-center p-2.5 w-full xs:p-3.5"
+                          style={{
+                            backgroundColor: `${skill.color}`,
+                          }}
+                        >
+                          <Image
+                            src={skill.img}
+                            alt="skill"
+                            width={240}
+                            height={240}
+                            quality={100}
+                            className=" object-cover min-w-4"
+                          />
+                        </div>
+                        <p className=" text-center text-gray-500 text-xs">
+                          {skill.name}
+                        </p>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+              <div>
+                <p className=" text-center p-4 font-semibold text-lg uppercase text-gray-700">
+                  <RoughNotation
+                    color="#fca5a5"
+                    type="highlight"
+                    show={true}
+                    padding={[2, 2]}
+                  >
+                    <span className=" p-2 uppercase">about me</span>
+                  </RoughNotation>
+                </p>
+                <p className="px-6 py-4 text-gray-600 leading-9 text-xs xs:text-sm xs:leading-10">
+                  I am a seasoned{' '}
+                  <RoughNotation
+                    color="#fde68a"
+                    type="highlight"
+                    show={true}
+                  >
+                    full-stack developer
+                  </RoughNotation>{' '}
+                  boasting a rich background of
+                  <RoughNotation
+                    color="#fca5a5"
+                    type="underline"
+                    show={true}
+                  >
+                    {' '}
+                    two years{' '}
+                  </RoughNotation>
+                  in the field. My passion lies in the creation of{' '}
+                  <RoughNotation
+                    color="red"
+                    type="box"
+                    show={true}
+                  >
+                    dynamic
+                  </RoughNotation>{' '}
+                  and{' '}
+                  <RoughNotation
+                    color="#2d64eb"
+                    type="box"
+                    show={true}
+                  >
+                    engaging
+                  </RoughNotation>{' '}
+                  websites and applications. I specialize in utilizing
+                  cutting-edge technologies, with a primary focus on
+                  <RoughNotation
+                    color="#2d64eb"
+                    type="underline"
+                    show={true}
+                  >
+                    {' '}
+                    React (Next.js) and WordPress.
+                  </RoughNotation>
+                </p>
+              </div>
             </div>
           </div>
         </div>
