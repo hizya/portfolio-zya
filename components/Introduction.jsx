@@ -9,7 +9,7 @@ import { RoughNotation } from 'react-rough-notation';
 function Introduction() {
   return (
     <MaxWidthWrapper className=" mb-12 mt-15 sm:mt-20 lg:mt-36 flex justify-between items-center flex-col sm:flex-row gap-10">
-      <div className=" sm:hidden ring-1 ring-inset ring-gray-900/10 p-2 bg-gray-900/5 rounded-md">
+      <div className=" sm:hidden ring-1 ring-inset ring-gray-900/10 p-2 bg-gray-900/5 rounded-md mt-8">
         <div className=" w-44">
           <Image
             src={'/images/main_photo.png'}

@@ -139,8 +139,8 @@ function ValueProject() {
                   </RoughNotation>
                   years in the field. My passion lies in the creation of{' '}
                   <RoughNotation
-                    color="red"
-                    type="box"
+                    color="#fca5a5"
+                    type="highlight"
                     show={true}
                   >
                     dynamic
@@ -156,7 +156,7 @@ function ValueProject() {
                   websites and applications. I specialize in utilizing
                   cutting-edge technologies, with a primary focus on
                   <RoughNotation
-                    color="#2d64eb"
+                    color="#bfdbfe"
                     type="underline"
                     show={true}
                   >
@@ -164,7 +164,7 @@ function ValueProject() {
                   </RoughNotation>
                   and{' '}
                   <RoughNotation
-                    color="#2d64eb"
+                    color="#bfdbfe"
                     type="underline"
                     show={true}
                   >
