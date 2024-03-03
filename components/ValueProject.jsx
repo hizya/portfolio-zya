@@ -119,25 +119,25 @@ function ValueProject() {
                     <span className=" p-2 uppercase">about me</span>
                   </RoughNotation>
                 </p>
-                <p className="px-6 py-4 text-gray-600 leading-9 text-xs xs:text-sm xs:leading-10">
+                <p className="px-6 py-4 text-gray-600 leading-9 text-sm xs:text-base xs:leading-10">
                   I am a seasoned{' '}
                   <RoughNotation
                     color="#fde68a"
                     type="highlight"
                     show={true}
                   >
-                    full-stack developer
+                    full-stack
                   </RoughNotation>{' '}
-                  boasting a rich background of
+                  developer boasting a rich background of
                   <RoughNotation
                     color="#fca5a5"
                     type="underline"
                     show={true}
                   >
                     {' '}
-                    two years{' '}
+                    two{' '}
                   </RoughNotation>
-                  in the field. My passion lies in the creation of{' '}
+                  years in the field. My passion lies in the creation of{' '}
                   <RoughNotation
                     color="red"
                     type="box"
@@ -160,8 +160,15 @@ function ValueProject() {
                     type="underline"
                     show={true}
                   >
-                    {' '}
-                    React (Next.js) and WordPress.
+                    <span> React (Next.js)</span>
+                  </RoughNotation>
+                  and{' '}
+                  <RoughNotation
+                    color="#2d64eb"
+                    type="underline"
+                    show={true}
+                  >
+                    <span>WordPress.</span>
                   </RoughNotation>
                 </p>
               </div>
