@@ -83,7 +83,7 @@ function ValueProject() {
                     return (
                       <li
                         key={index}
-                        className=" p-4 max-w-32 space-y-3 mx-auto"
+                        className=" p-4 max-w-28 space-y-3 mx-auto"
                       >
                         <div
                           className=" rounded-full flex flex-col items-center p-2.5 w-full xs:p-3.5"
